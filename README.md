@@ -1,1 +1,2 @@
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+# Cinecstasy - A easy way to buy tickets
+![Cinecstasy's logo](https://cinecstasy.ml/images/essentials/logo.svg)
