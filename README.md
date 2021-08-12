@@ -1,2 +1,2 @@
 # Cinecstasy - A easy way to buy tickets
-![Cinecstasy's logo](https://cinecstasy.ml/images/essentials/logo.svg)
+![Cinecstasy's logo](http://cinecstasy.ml/images/essentials/logo.svg)
