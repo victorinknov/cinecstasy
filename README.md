@@ -1,4 +1,4 @@
-## <p align="center"> cinecstasy - A easy way to buy tickets </p>
+## <p align="center"> CINECSTASY - A easy way to buy movie tickets </p>
 ![Cinecstasy's logo](https://raw.githubusercontent.com/victorinknov/dump-files/80ce369f1cefbaec8e720349c564384129a31153/cinecstasy-logo.svg)
 
 ## Introduction 
