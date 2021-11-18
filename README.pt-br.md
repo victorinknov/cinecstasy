@@ -9,7 +9,7 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 
 | software | versão | status |
 | --- | --- | --- |
-| [Node.js](https://nodejs.org/en/download/) | v14.18.0 | ✓ |
+| [Node.js](https://nodejs.org/en/download/) | v14.18.0 | <p align="right">✓</p> |
 | [NPM](https://www.npmjs.com/package/download) | v6.14.15 | ✓ |
 | [MySQL](https://dev.mysql.com/downloads/installer/) | v8.0.26 | ✓ |
 
