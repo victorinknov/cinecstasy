@@ -5,15 +5,10 @@
 Esse projeto foi desenvolvido com o objetivo de permitir a compra de **ingressos de cinema** e permitir a visualização das **opções de snackbar** do mesmo.
 
 ## PRÉ-REQUISITOS
-Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwares instalados em sua máquina: 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-- [Node.js](https://nodejs.org/en/download/) 
-- [NPM](https://www.npmjs.com/package/download) <p align="center"></p>
-- [MySQL](https://dev.mysql.com/downloads/installer/)
+Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwares instalados em sua máquina:
+- [Node.js](https://nodejs.org/en/download/) <p align="center">v14.18.0</p>
+- [NPM](https://www.npmjs.com/package/download) <p align="center">v6.14.15</p>
+- [MySQL](https://dev.mysql.com/downloads/installer/)<p align="center">v8.0.26</p>
 
 ## CRIANDO O AMBIENTE
 Se você está usando Windows como SO:
