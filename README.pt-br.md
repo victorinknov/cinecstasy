@@ -1,18 +1,25 @@
-## <p align="center"> CINECSTASY - A easy way to buy movie tickets </p>
+## <p align="center"> CINECSTASY - Um jeito fácil de comprar ingressos! </p>
 ![Cinecstasy's logo](https://raw.githubusercontent.com/victorinknov/dump-files/80ce369f1cefbaec8e720349c564384129a31153/cinecstasy-logo.svg)
 
 ## INTRODUÇÃO 
-This project was made with the aim of developing a web application that would allow the purchase of **movie tickets** and show **snackbar options**.
+Esse projeto foi desenvolvido com o objetivo de permitir a compra de **ingressos de cinema** e permitir a visualização das **opções de snackbar** do mesmo.
 
 ## PRÉ-REQUISITOS
-To run this project make sure you have these services/softwares on your machine [Node.js](https://nodejs.org/en/download/) - by default when you install Node.js, node package manager (NPM) are installed together - and [MySQL](https://dev.mysql.com/downloads/installer/).
+Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwares instalados em sua máquina: 
+- [Node.js](https://nodejs.org/en/download/)
+- [NPM](https://www.npmjs.com/package/download) | Por padrão, o NPM _(Node Package Manager)_, é instalado juntamente com o Node.js 
+- [MySQL](https://dev.mysql.com/downloads/installer/)
 
 ## CRIANDO O AMBIENTE
-If you're using a Windows Machine: 
-On main folder **(\cinecstasy\)** press <kbd> SHIFT </kbd> and click with right button of the mouse. Choose 'Open powershell window here'. Follow steplist below.
+Se você está usando Windows como SO:
+1. Abra a pasta principal; ***(\cinecstasy\)***
+2. Dentro da pasta, pressione <kbd> SHIFT </kbd> e clique com o botão direito do mouse;
+3. Selecione 'Abrir janela do powershell aqui'.
+4. Siga os passos primordiais.
 
-If you're using a Linux Machine:
-Open your shell and go to main project folder, man. If you are using linux you know how 2do this.
+Se você está usando Linux:
+1. Abra o shell e vá até a pasta principal do projeto.
+2. Siga os passos primordiais.
 
 ## PASSOS PRIMORDIAIS
 1. **Cloning / extracting**: clone or extract this repository to your DESKTOP. 
@@ -25,9 +32,9 @@ Open your shell and go to main project folder, man. If you are using linux you k
 ## RODANDO O PROJETO
 1. **Runnnnnnning**: yet in shell, type "npm run dev" <kbd> Enter </kbd>;
 2. **Opening**: Shell will prompt in which **port** the application is running, just type in your browser: http://localhost:5051/ (5051 CAN CHANGE!)
-3. **Login details**: 
-
-***email:*** victor@gmail.com 
+3. **Detalhes de login**: 
+- email: victor@gmail.com
+- senha: 12345
 
 ***password:*** 12345 
  <p align=center>If you follow all steps, errors may not appear</p>
