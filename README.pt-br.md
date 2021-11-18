@@ -9,9 +9,9 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 
 | software | versão | status |
 | --- | --- | --- |
-| [Node.js](https://nodejs.org/en/download/) | v14.18.0 | <p align="right">✓</p> |
-| [NPM](https://www.npmjs.com/package/download) | v6.14.15 | ✓ |
-| [MySQL](https://dev.mysql.com/downloads/installer/) | v8.0.26 | ✓ |
+| <p align="center">[Node.js](https://nodejs.org/en/download/)</p> | <p align="center">v14.18.0</p> | <p align="center">✓</p> |
+| <p align="center">[NPM](https://www.npmjs.com/package/download)</p> | <p align="center">v6.14.15</p> | <p align="center">✓</p> |
+| <p align="center">[MySQL](https://dev.mysql.com/downloads/installer/)</p> | <p align="center">v8.0.26</p> | <p align="center">✓</p> |
 
 
 
