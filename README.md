@@ -18,15 +18,15 @@ Open your shell and go to main projects folder, man. If you are using linux you 
 1. **Cloning / extracting**: clone or extract this repository to your DESKTOP. 
 2. **Installing Node Modules**: type "npm install" <kbd> Enter </kbd> ***(without quotes);***
 3. **Exiting npm module shell**: <kbd> CTRL </kbd> + <kbd> C </kbd> <kbd> Enter </kbd>
-3.1 **Creating Database**: type 'mysql -u root -p -A < "C:\Users\yourusernamegoeshhere\Desktop\cinecstasy\database\db.sql"' <kbd> Enter </kbd> ***(without single quotes);***
-3.1.1 **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting Enter button, mysql will prompt to you inform your password.  
-4. **Checking**: Before start the next step, you **MUST** need change the database.js file with your information. Make sure that this file is correctly according your MySQL local account. 
+4. **Creating Database**: type 'mysql -u root -p -A < "C:\Users\yourusernamegoeshhere\Desktop\cinecstasy\database\db.sql"' <kbd> Enter </kbd> ***(without single quotes);***
+5. **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting Enter button, mysql will prompt to you inform your password.  
+6. **Checking**: Before start the next step, you **MUST** need change the database.js file with your information. Make sure that this file is correctly according your MySQL local account. 
 
 ## Running project
 # Markdown
 1. **Runnnnnnning**: yet in shell, type "npm run dev" <kbd> Enter </kbd>;
 2. **Opening**: Shell will prompt in which **port** the application is running, just type in your browser: http://localhost:**port**/
 3. ***If you follow all steps, may not appear*** 
-3.1 **Login details**: ***email:*** victor@gmail.com ***password:*** 12345 
+4. **Login details**: ***email:*** victor@gmail.com ***password:*** 12345 
 
 ## Understanding the code
