@@ -6,8 +6,9 @@ Esse projeto foi desenvolvido com o objetivo de permitir a compra de **ingressos
 
 ## PRÉ-REQUISITOS
 Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwares instalados em sua máquina: 
-- [Node.js](https://nodejs.org/en/download/)
-- [NPM](https://www.npmjs.com/package/download) | Por padrão, o NPM _(Node Package Manager)_, é instalado juntamente com o Node.js 
+<p align="left">software</p><p align="center">versão</p> <p align="right">link</p>
+- [Node.js](https://nodejs.org/en/download/) 
+- [NPM](https://www.npmjs.com/package/download) <p align="center"></p>
 - [MySQL](https://dev.mysql.com/downloads/installer/)
 
 ## CRIANDO O AMBIENTE
