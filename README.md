@@ -16,10 +16,10 @@ Open your shell and go to main projects folder, man. If you are using linux you 
 
 ## Steplist
 1. **Cloning / extracting**: clone or extract this repository to your DESKTOP. 
-2. **Installing Node Modules**: type "npm install" <kbd> Enter </kbd> ***(without quotes);***
-3. **Exiting npm module shell**: <kbd> CTRL </kbd> + <kbd> C </kbd> <kbd> Enter </kbd>
-4. **Creating Database**: type 'mysql -u root -p -A < "C:\Users\yourusernamegoeshhere\Desktop\cinecstasy\database\db.sql"' <kbd> Enter </kbd> ***(without single quotes);***
-5. **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting Enter button, mysql will prompt to you inform your password.  
+2. **Installing Node Modules**: type "npm install" <kbd> ENTER </kbd> ***(without quotes);***
+3. **Exiting npm module shell**: <kbd> CTRL </kbd> + <kbd> C </kbd> <kbd> ENTER </kbd>
+4. **Creating Database**: type 'mysql -u root -p -A < "C:\Users\yourusernamegoeshhere\Desktop\cinecstasy\database\db.sql"' <kbd> ENTER </kbd> ***(without single quotes);***
+5. **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting <kbd> ENTER </kbd> button, mysql will prompt to you inform your password.  
 6. **Checking**: Before start the next step, you **MUST** need change the database.js file with your information. Make sure that this file is correctly according your MySQL local account. 
 
 ## Running project
