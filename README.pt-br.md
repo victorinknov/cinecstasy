@@ -6,12 +6,13 @@ Esse projeto foi desenvolvido com o objetivo de permitir a compra de **ingressos
 
 ## PRÉ-REQUISITOS
 Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwares instalados em sua máquina:
-
+<center align="center">
 | software | versão | status |
 | --- | --- | --- |
 | [Node.js](https://nodejs.org/en/download/) | v14.18.0 | ✓ |
 | [NPM](https://www.npmjs.com/package/download) | v6.14.15 | ✓ |
-| [MySQL](https://dev.mysql.com/downloads/installer/) | v8.0.26 | ✓ | 
+| [MySQL](https://dev.mysql.com/downloads/installer/) | v8.0.26 | ✓ |
+</center>
 
 
 ## CRIANDO O AMBIENTE
