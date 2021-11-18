@@ -12,7 +12,7 @@ If you're using a Windows Machine:
 On main folder **(\cinecstasy\)** press <kbd> SHIFT </kbd> and click with right button of the mouse. Choose 'Open powershell window here'. Follow steplist below.
 
 If you're using a Linux Machine:
-Open your shell and go to main projects folder, man. If you are using linux you know this.
+Open your shell and go to main project folder, man. If you are using linux you know how 2do this.
 
 ## Steplist
 1. **Cloning / extracting**: clone or extract this repository to your DESKTOP. 
@@ -25,7 +25,9 @@ Open your shell and go to main projects folder, man. If you are using linux you 
 ## Running project
 1. **Runnnnnnning**: yet in shell, type "npm run dev" <kbd> Enter </kbd>;
 2. **Opening**: Shell will prompt in which **port** the application is running, just type in your browser: http://localhost:5051/ (5051 CAN CHANGE!)
-3. **Login details**: ***email:*** victor@gmail.com ***password:*** 12345 
+3. **Login details**: 
+*. ***email:*** victor@gmail.com 
+*. ***password:*** 12345 
  <p align=center>If you follow all steps, may not appear</p>
  
 ## Understanding the code
