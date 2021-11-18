@@ -6,7 +6,7 @@ Esse projeto foi desenvolvido com o objetivo de permitir a compra de **ingressos
 
 ## PRÉ-REQUISITOS
 Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwares instalados em sua máquina: 
-<p align="left" display="flex">software</p><p align="center">versão</p> <p align="right">link</p>
+<p align="left" style="display: flex">software</p><p align="center">versão</p> <p align="right">link</p>
 - [Node.js](https://nodejs.org/en/download/) 
 - [NPM](https://www.npmjs.com/package/download) <p align="center"></p>
 - [MySQL](https://dev.mysql.com/downloads/installer/)
