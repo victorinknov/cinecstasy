@@ -14,7 +14,7 @@ On main folder **(\cinecstasy\)** press <kbd> SHIFT </kbd> and click with right 
 If you're using a Linux Machine:
 Open your shell and go to main projects folder, man. If you are using linux you know this.
 
-# Markdown
+## Steplist
 1. **Cloning / extracting**: clone or extract this repository to your DESKTOP. 
 2. **Installing Node Modules**: type "npm install" <kbd> Enter </kbd> ***(without quotes);***
 3. **Exiting npm module shell**: <kbd> CTRL </kbd> + <kbd> C </kbd> <kbd> Enter </kbd>
