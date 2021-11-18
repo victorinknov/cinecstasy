@@ -4,9 +4,29 @@
 ## Introduction 
 This project was made with the aim of developing a web application that would allow the purchase of **movie tickets** and show **snackbar options**.
 
+## Pre requisites
+To run this project make sure you have these services/softwares on your machine [Node.js](https://nodejs.org/en/download/) - by default when you install Node.js, node package manager (NPM) are installed together - and [MySQL](https://dev.mysql.com/downloads/installer/).
+
+## Creating development enviroment
+If you're using a Windows Machine: 
+On main folder **(\cinecstasy\)** press <kbd> SHIFT </kbd> and click with right button of the mouse. Choose 'Open powershell window here'. Follow steplist below.
+
+If you're using a Linux Machine:
+Open your shell and go to main projects folder, man. If you are using linux you know this.
+
+# Markdown
+1. **Cloning / extracting**: clone or extract this repository to your DESKTOP. 
+2. **Installing Node Modules**: type "npm install" <kbd> Enter </kbd> ***(without quotes);***
+3. **Exiting npm module shell**: <kbd> CTRL </kbd> + <kbd> C </kbd> <kbd> Enter </kbd>
+3.1 **Creating Database**: type 'mysql -u root -p -A < "C:\Users\yourusernamegoeshhere\Desktop\cinecstasy\database\db.sql"' <kbd> Enter </kbd> ***(without single quotes);***
+3.1.1 **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting Enter button, mysql will prompt to you inform your password.  
+4. **Checking**: Before start the next step, you **MUST** need change the database.js file with your information. Make sure that this file is correctly according your MySQL local account. 
+
 ## Running project
-To run this project you must have Node.js, <span style="color:blue"> NPM </span> and MySQL installed on your machine. After cloning the project, open the main directory with *cmd*, *powershell* or any *shell* and type 'npm install'.
-## Creating database
-After NPM installs the **node_modules**, you will need to run the database script. Open the shell in the 'database' folder and type: 'mysql -u x -p y -A < "db.sql";' Where 'X' are your MySQL username and Y your password.
+# Markdown
+1. **Runnnnnnning**: yet in shell, type "npm run dev" <kbd> Enter </kbd>;
+2. **Opening**: Shell will prompt in which **port** the application is running, just type in your browser: http://localhost:**port**/
+3. ***If you follow all steps, may not appear*** 
+3.1 **Login details**: ***email:*** victor@gmail.com ***password:*** 12345 
 
 ## Understanding the code
