@@ -15,8 +15,6 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 | <p align="center">[NPM](https://www.npmjs.com/package/download)</p> | <p align="center">v6.14.15</p> | <p align="center">desatualizada</p> |
 | <p align="center">[MySQL](https://dev.mysql.com/downloads/installer/)</p> | <p align="center">v8.0.26</p> | <p align="center">atualizada</p> |
 
-
-
 ## CRIANDO O AMBIENTE
 ### Se você está usando Windows como SO:
 1. Abra a pasta principal; ***(\cinecstasy\)***
