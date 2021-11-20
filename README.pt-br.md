@@ -30,7 +30,7 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 ### PASSOS PRIMORDIAIS
 #### [NODE MODULES]
 1. Dentro do shell, digite:
-```shell
+```nodejs
  npm install 
 ```
 
