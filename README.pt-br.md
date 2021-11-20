@@ -18,13 +18,13 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 
 
 ## CRIANDO O AMBIENTE
-Se você está usando Windows como SO:
+### Se você está usando Windows como SO:
 1. Abra a pasta principal; ***(\cinecstasy\)***
 2. Dentro da pasta, pressione <kbd> SHIFT </kbd> e clique com o botão direito do mouse;
 3. Selecione 'Abrir janela do powershell aqui'.
 4. Siga os passos primordiais.
 
-Se você está usando Linux:
+### Se você está usando Linux:
 1. Abra o shell e vá até a pasta principal do projeto.
 2. Siga os passos primordiais.
 
