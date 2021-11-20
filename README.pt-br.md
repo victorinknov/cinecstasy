@@ -27,11 +27,9 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 2. Siga os passos primordiais.
 
 ### PASSOS PRIMORDIAIS
-* #### Clonando / Extraindo.
-Há várias maneiras de clonar e extrair o projeto, 
-1. abc
-2. 
-* 
+#### Clonando / Extraindo.
+1. Primeiro clone o projeto para para sua área de trabalho e extraia-o.
+2. Abra a pasta raiz e pressione o <kbd> - | _ </kbd> 
 3. **Installing Node Modules**: type "npm install" <kbd> ENTER </kbd> ***(without quotes);***
 4. **Exiting npm module shell**: <kbd> CTRL </kbd> + <kbd> C </kbd> <kbd> ENTER </kbd>
 5. **Creating Database**: type 'mysql -u root -p -A < "C:\Users\yourusernamegoeshhere\Desktop\cinecstasy\database\db.sql"' <kbd> ENTER </kbd> ***(without single quotes);***
