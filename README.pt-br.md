@@ -45,11 +45,11 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 - -p significa "password", assim que pressionar <kbd> ENTER </kbd>, ele irá promptar solicitando a senha desse usuário.
 - -A significa "no auto-rehashing", para que o shell não execute novamente a tarefa automáticamente.
 
-5. [MYSQL]
-Algumas considerações sobre o MySQL. Na hora de criar um usuário, você preferencialmente deve deixar a opção 'legacy password' ativa e com alguma senha, não a deixe em branco! 
+#### [MYSQL]
+5. Algumas considerações sobre o MySQL: na hora de criar um usuário, você preferencialmente deve deixar a opção 'legacy password' ativa e obrigatóriamente com alguma senha, não a deixe em branco! 
 
-6. [CONEXÃO SERVER/DATABASE]
-Utilizando algum editor de texto de sua preferência, vá até o arquivo '\cinecstasy\src\keys.js' e coloque as informações condizentes com seu usuário local do MySQL.
+#### [CONEXÃO SERVER/DATABASE]
+6. Utilizando algum editor de texto de sua preferência, vá até o arquivo '\cinecstasy\src\keys.js', você deve ver a seguinte estrutura:
 ```javascript
 module.exports = {
      database: {
@@ -60,8 +60,7 @@ module.exports = {
      }
 }
 ```
-Substitua ***-----*** pela sua senha do MySQL.
-
+7. No campo "password", substitua ***-----*** por sua senha do MySQL.
 
 ### RODANDO O PROJETO
 1. **Runnnnnnning**: yet in shell, type "npm run dev" <kbd> Enter </kbd>;
