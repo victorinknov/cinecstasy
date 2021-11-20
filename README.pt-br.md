@@ -33,9 +33,10 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 ```nodejs
  npm install 
 ```
-
-2. 
-3. **Exiting npm module shell**: <kbd> CTRL </kbd> + <kbd> C </kbd> <kbd> ENTER </kbd>
+2. [SAINDO DO NPM]
+```
+<kbd> CTRL </kbd> + <kbd> C </kbd> <kbd> ENTER </kbd>
+```
 4. **Creating Database**: type 'mysql -u root -p -A < "C:\Users\yourusernamegoeshhere\Desktop\cinecstasy\database\db.sql"' <kbd> ENTER </kbd> ***(without single quotes);***
 5. **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting <kbd> ENTER </kbd> button, mysql will prompt to you inform your password.  
 7. **Checking**: Before start the next step, you **MUST** need change the database.js file with your information. Make sure that this file is correctly according your MySQL local account. 
