@@ -75,7 +75,7 @@ npm run dev
 [nodemon] watching path(s): *.*
 [nodemon] watching extensions: js,mjs,json
 [nodemon] starting `node src/`
-Server running at 5551
+Server running at 5051
 Database CONNECTED.
 ```
 #### [FOI?! :zany_face:] 
@@ -99,7 +99,7 @@ victor@gmail.com
 [nodemon] watching path(s): *.*
 [nodemon] watching extensions: js,mjs,json
 [nodemon] starting `node src/`
-Server running at 5551
+Server running at 5051
 _
 ```
 Alguma das informações inseridas por você está incorreta, retorne ao arquivo `keys.js` e confira, se está tudo nos conformes, retorne ao tópico `[BANCO DE DADOS]`.
