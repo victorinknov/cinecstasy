@@ -7,7 +7,7 @@ Esse projeto foi desenvolvido com o objetivo de permitir a compra de **ingressos
 ## PRÉ-REQUISITOS
 Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwares instalados em sua máquina:
 
-| software | versão | status |
+| software | versão utilizada no projeto | status |
 | --- | --- | --- |
 | <p align="center">[Node.js](https://nodejs.org/en/download/)</p> | <p align="center">v14.18.0</p> | <p align="center">✓</p> |
 | <p align="center">[NPM](https://www.npmjs.com/package/download)</p> | <p align="center">v6.14.15</p> | <p align="center">✓</p> |
