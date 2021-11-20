@@ -1,7 +1,7 @@
 ## <p align="center"> CINECSTASY - Um jeito fácil de comprar ingressos! </p>
 ![Cinecstasy's logo](https://raw.githubusercontent.com/victorinknov/dump-files/80ce369f1cefbaec8e720349c564384129a31153/cinecstasy-logo.svg)
 
-#### [English](https://github.com/victorinknov/cinecstasy/README.en-us.md) | [Português](https://github.com/victorinknov/cinecstasy/README.pt-br.md)
+#### [English](https://github.com/victorinknov/cinecstasy/blob/main/README.en-us.md) | [Português](https://github.com/victorinknov/cinecstasy/blob/main/README.pt-br.md)
 
 ### INTRODUÇÃO 
 Esse projeto foi desenvolvido com o objetivo de permitir a compra de **ingressos de cinema** e permitir a visualização das **opções de snackbar** do mesmo.
