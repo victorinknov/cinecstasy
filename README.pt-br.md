@@ -40,8 +40,9 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 ```sql
  mysql -u root -p -A < "C:\Users\Seu_Usuario\Desktop\cinecstasy\database\db.sql"
 ```
-4. Antes de pressionar <kbd> ENTER </kbd>, mude 'Seu_Usuario' pelo seu usuário local
-5. **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting <kbd> ENTER </kbd> button, mysql will prompt to you inform your password.  
+4. Antes de pressionar <kbd> ENTER </kbd>, 
+<button> -u </button>
+6. **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting <kbd> ENTER </kbd> button, mysql will prompt to you inform your password.  
 7. **Checking**: Before start the next step, you **MUST** need change the database.js file with your information. Make sure that this file is correctly according your MySQL local account. 
 
 ### RODANDO O PROJETO
