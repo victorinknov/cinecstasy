@@ -63,17 +63,45 @@ module.exports = {
 7. No campo "password", substitua ***-----*** por sua senha do MySQL.
 
 ### RODANDO O PROJETO
-#### AGORA VAI!!!
-1. Dentro do shell, digite:
+#### [AGORA VAI!]
+1. Dentro do shell e na pasta principal do projeto, digite:
 ```node
 npm run dev
 ```
-3. **Opening**: Shell will prompt in which **port** the application is running, just type in your browser: http://localhost:5051/ (5051 CAN CHANGE!)
-4. **Detalhes de login**: 
-- email: victor@gmail.com
-- senha: 12345
+2. Se tudo ocorreu bem, você deverá receber a seguinte mensagem no console:
+```
+[nodemon] 2.0.13
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node src/`
+Server running at 5551
+Database CONNECTED.
+```
+#### [FOI?! :zany_face:] 
+3. Se essa mensagem foi promptada para você, você já consegue visualizar o projeto. Basta seguir o próximos passos!
+4. Em uma nova aba do seu navegador, vá até o seguinte endereço: [http://localhost:5051/]http://localhost:5051/
+Observe que o sistema ainda roda em modo estático, logo, ainda não conseguirá adicionar ou remover USUÁRIOS de modo DINÂMICO.
+- email: 
+```text
+victor@gmail.com
+```
+- senha:
+```text
+12345
+``` 
 
-***password:*** 12345 
- <p align=center>Se seguiu todos os passos, nenhum erro deve ter aparecido.</p>
- 
+#### [NÃO FOI!!! :exploding_head:]
+#### [ERROS RELACIONADOS AO BANCO DE DADOS]
+```
+[nodemon] 2.0.13
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,json
+[nodemon] starting `node src/`
+Server running at 5551
+_
+```
+Alguma das informações inseridas por você está incorreta, retorne ao arquivo `keys.js` e confira, se está tudo nos conformes, retorne ao tópico `[BANCO DE DADOS]`.
+
 ### ENTENDENDO O CÓDIGO
