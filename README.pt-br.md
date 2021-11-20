@@ -17,23 +17,27 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 
 ## CRIANDO O AMBIENTE
 ### Se você está usando Windows como SO:
-1. Abra a pasta principal; ***(\cinecstasy\)***
+1. Faça o download ou clone o projeto para sua área de trabalho
+1. Abra a pasta principal: ***\cinecstasy\***
 2. Dentro da pasta, pressione o botão direito do mouse enquanto pressiona o botão <kbd> SHIFT </kbd>
-3. Selecione a opção 'Abrir janela do powershell aqui'.
-4. Siga os passos primordiais.
+3. Selecione a opção 'Abrir janela do powershell aqui'
+4. Siga os passos primordiais
 
 #### Se você está usando Linux:
 1. Abra o shell e vá até a pasta principal do projeto.
 2. Siga os passos primordiais.
 
 ### PASSOS PRIMORDIAIS
-#### Clonando / Extraindo.
-1. Primeiro clone o projeto para para sua área de trabalho e extraia-o.
-2. Abra a pasta raiz e pressione o <kbd> - | _ </kbd> 
-3. **Installing Node Modules**: type "npm install" <kbd> ENTER </kbd> ***(without quotes);***
-4. **Exiting npm module shell**: <kbd> CTRL </kbd> + <kbd> C </kbd> <kbd> ENTER </kbd>
-5. **Creating Database**: type 'mysql -u root -p -A < "C:\Users\yourusernamegoeshhere\Desktop\cinecstasy\database\db.sql"' <kbd> ENTER </kbd> ***(without single quotes);***
-6. **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting <kbd> ENTER </kbd> button, mysql will prompt to you inform your password.  
+#### [NODE MODULES]
+1. Dentro do shell, digite:
+```shell
+ npm install 
+```
+
+2. 
+3. **Exiting npm module shell**: <kbd> CTRL </kbd> + <kbd> C </kbd> <kbd> ENTER </kbd>
+4. **Creating Database**: type 'mysql -u root -p -A < "C:\Users\yourusernamegoeshhere\Desktop\cinecstasy\database\db.sql"' <kbd> ENTER </kbd> ***(without single quotes);***
+5. **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting <kbd> ENTER </kbd> button, mysql will prompt to you inform your password.  
 7. **Checking**: Before start the next step, you **MUST** need change the database.js file with your information. Make sure that this file is correctly according your MySQL local account. 
 
 ### RODANDO O PROJETO
