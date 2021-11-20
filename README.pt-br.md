@@ -3,10 +3,10 @@
 
 #### [English](https://github.com/victorinknov/cinecstasy/README.en-us.md) | [Português](https://github.com/victorinknov/cinecstasy/README.pt-br.md)
 
-## INTRODUÇÃO 
+### INTRODUÇÃO 
 Esse projeto foi desenvolvido com o objetivo de permitir a compra de **ingressos de cinema** e permitir a visualização das **opções de snackbar** do mesmo.
 
-## PRÉ-REQUISITOS
+### PRÉ-REQUISITOS
 Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwares instalados em sua máquina:
 
 | software | versão utilizada no projeto | status |
@@ -24,12 +24,12 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 3. Selecione 'Abrir janela do powershell aqui'.
 4. Siga os passos primordiais.
 
-### Se você está usando Linux:
+#### Se você está usando Linux:
 1. Abra o shell e vá até a pasta principal do projeto.
 2. Siga os passos primordiais.
 
-## PASSOS PRIMORDIAIS
-* ### Clonando / Extraindo.
+### PASSOS PRIMORDIAIS
+* #### Clonando / Extraindo.
 Há várias maneiras de clonar e extrair o projeto, 
 1. abc
 2. 
@@ -40,7 +40,7 @@ Há várias maneiras de clonar e extrair o projeto,
 6. **Considerations**: root are the default high level user in MySQL workbench, if you didn't create root, change with your username. After hiting <kbd> ENTER </kbd> button, mysql will prompt to you inform your password.  
 7. **Checking**: Before start the next step, you **MUST** need change the database.js file with your information. Make sure that this file is correctly according your MySQL local account. 
 
-## RODANDO O PROJETO
+### RODANDO O PROJETO
 1. **Runnnnnnning**: yet in shell, type "npm run dev" <kbd> Enter </kbd>;
 2. **Opening**: Shell will prompt in which **port** the application is running, just type in your browser: http://localhost:5051/ (5051 CAN CHANGE!)
 3. **Detalhes de login**: 
@@ -50,4 +50,4 @@ Há várias maneiras de clonar e extrair o projeto,
 ***password:*** 12345 
  <p align=center>Se seguiu todos os passos, nenhum erro deve ter aparecido.</p>
  
-## ENTENDENDO O CÓDIGO
+### ENTENDENDO O CÓDIGO
