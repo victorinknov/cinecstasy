@@ -48,7 +48,7 @@ Para rodar esse projeto, tenha certeza de que tem os seguintes serviços/softwar
 #### [MYSQL]
 5. Algumas considerações sobre o MySQL: na hora de criar um usuário, você preferencialmente deve deixar a opção 'legacy password' ativa e obrigatóriamente com alguma senha, não a deixe em branco! 
 
-#### [CONEXÃO SERVER/DATABASE]
+#### [CONEXÃO SERVIDOR/BANCO DE DADOS]
 6. Utilizando algum editor de texto de sua preferência, vá até o arquivo '\cinecstasy\src\keys.js', você deve ver a seguinte estrutura:
 ```javascript
 module.exports = {
@@ -63,9 +63,13 @@ module.exports = {
 7. No campo "password", substitua ***-----*** por sua senha do MySQL.
 
 ### RODANDO O PROJETO
-1. **Runnnnnnning**: yet in shell, type "npm run dev" <kbd> Enter </kbd>;
-2. **Opening**: Shell will prompt in which **port** the application is running, just type in your browser: http://localhost:5051/ (5051 CAN CHANGE!)
-3. **Detalhes de login**: 
+#### AGORA VAI!!!
+1. Dentro do shell, digite:
+```node
+npm run dev
+```
+3. **Opening**: Shell will prompt in which **port** the application is running, just type in your browser: http://localhost:5051/ (5051 CAN CHANGE!)
+4. **Detalhes de login**: 
 - email: victor@gmail.com
 - senha: 12345
 
