@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    x margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Muli', sans-serif;
+    background-color: #322A62;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    width: 3750px;
+    height: 200px;
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(to right, #57417F, #6255A1);
+    padding: 1.5rem 1rem;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    flex: 1;
+    margin-right: .75rem;
+}
+
+.header-text h2 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+.header-text p {
+    width: 90%;
+    line-height: 1.5;
+}
+
+.header-text .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    border: none;
+    background-color: #66528b;
+    color: #d9d1e7;
+    padding: 1rem 1.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.header-digits {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header-digits div h4 {
+    color: #9E94BD;
+    margin-top: -1rem;
+}
+
+.header-digits div:nth-of-type(2),
+.header-digits div:nth-of-type(4) {
+    border-left: 1px solid #7d70ad;
+    margin-left: -2rem;
+    padding: 0 0 0 3rem;
+}
+
+.header-digits div:nth-of-type(1),
+.header-digits div:nth-of-type(2) {
+    border-bottom: 1px solid #7d70ad;
+    margin-bottom: -4px;
+    width: 90%;
+}

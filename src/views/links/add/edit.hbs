@@ -1,0 +1,143 @@
+<head>
+    <title> Editar Filme </title>
+    <link href="/css/sb-admin-2.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="bg-gradient-dark">
+    <div class="container">
+        <div class="card o-hidden border-0 shadow-lg my-7 mt-2">
+            <div class="card-body p-0 align-items-center">
+                <!-- Nested Row within Card Body -->
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-block bg-login-image">
+                        <img id="frame" src="/upload/movies/{{editMovie.moviePoster}}" width="103%" height="100%" class="bg-preview d-none d-lg-block ">
+                        <script>
+                            function preview() {
+                                frame.src = URL.createObjectURL(event.target.files[0])
+                            }
+                        </script>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="h4 text-gray-100 mb-4">Editar Filme</h1>
+                            </div>
+                            <form action="/dashboard/movies/edit/{{editMovie.idMovie}}" method="post"
+                                class="user ls-form ls-form-horizontal" enctype="multipart/form-data">
+                                <div class="form-group row">
+                                    <div style="display: none">
+                                        <input type="text" value={{{editMovie.moviePoster}}} name="fakeMoviePoster">
+                                    </div>
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <label class="label">Nome do Filme</label>
+                                        <input type="text" class="form-control form-control-user"
+                                            value="{{editMovie.movieName}}" name="movieName"
+                                            placeholder="Digite o nome do filme" required>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <label class="label">Duração em minutos</label>
+                                        <input type="number" class="form-control form-control-user"
+                                            value="{{editMovie.duration}}" name="duration" placeholder="ex: 193"
+                                            required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <label class="label">Sinopse do filme</label>
+                                        <input type="text" class="form-control form-control-user"
+                                            value={{{editMovie.sinopse}}} name="sinopse"
+                                            placeholder="Sinopse do filme..." required>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <label class="label">Data de Lançamento</label>
+                                        <input type="date" name="releaseDate" value="{{editMovie.dateString}}"
+                                            class="form-control form-control-user" max="2029-12-31" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <label class="label">Diretor</label>
+                                        <input type="text" class="form-control form-control-user"
+                                            value="{{editMovie.director}}" name="director"
+                                            placeholder="ex: Quentin Tarantino" required>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <label class="label">Elenco do filme</label>
+                                        <input type="text" class="form-control form-control-user"
+                                            value="{{editMovie.movieCast}}" name="movieCast"
+                                            placeholder="ex: Brad Pitty; Anthony Hopkins; ..." required>
+                                    </div>
+                                </div>
+                                <div class="form-group col-sm-6 mb-3 mb-sm-0 p-1">
+                                    <label class="label">Poster do Filme</label><br>
+                                    <input type="file" name="moviePoster" onchange="preview()">
+                                </div>
+
+                                <div class="container">
+                                    <div class="row mb-2 mt-2">
+                                        <div class="col-sm">
+                                            <label class="label">Classificação:</label><br>
+                                            <select name="parentalRating" id="sbci" required>
+                                                <option selected> {{editMovie.parentalRating}} </option>
+                                                <option value="L">Livre</option>
+                                                <option value="10">+10</option>
+                                                <option value="12">+12</option>
+                                                <option value="14">+14</option>
+                                                <option value="16">+16</option>
+                                                <option value="18">+18</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-sm">
+                                            <label class="label">Gênero:</label><br>
+                                            <select name="genre" id="genre" required>
+                                                <option selected> {{editMovie.genre}} </option>
+                                                <option value="ação">Ação</option>
+                                                <option value="animação">Animação</option>
+                                                <option value="aventura">Aventura</option>
+                                                <option value="assalto">Assalto</option>
+                                                <option value="comédia">Comédia</option>
+                                                <option value="curta">Drama</option>
+                                                <option value="documentário">Documentário</option>
+                                                <option value="faroeste">Faroeste</option>
+                                                <option value="guerra">Guerra</option>
+                                                <option value="terror">Terror</option>
+                                                <option value="romance">Romance</option>
+                                                <option value="sci-fi">SCI-FI</option>
+                                                <option value="suspense">Suspense</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-sm">
+                                            <label class="label">Status:</label><br>
+                                            <select name="status" id="status" required>
+                                                <option selected> {{editMovie.status}} </option>
+                                                <option value="ativo">Ativo</option>
+                                                <option value="inativo">Inativo</option>
+                                                <option value="lançamento">Lançamento</option>
+                                                <option value="em-breve">Em breve</option>
+                                                <option value="ultimos-dias">Ultimos Dias</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary btn-user btn-block">
+                                    Editar
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

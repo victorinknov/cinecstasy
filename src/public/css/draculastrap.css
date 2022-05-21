@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #282a36;
+    overflow: hidden;
+}
+
+.container {
+    width: 30vw;
+    height: 90vh;
+    background-color: #44475a;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc((100vh - 90vh) / 2);
+    border-radius: 1vw;
+}
+
+.container-login {
+    width: 30vw;
+    height: 40vh;
+    background-color: #3e3f49;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc((100vh - 40vh) / 2);
+    border-radius: 1vw;
+}
+
+.loginLogo {
+    width: 300px;
+}
+
+.form-group {
+    display: block;
+}
+
+input {
+    background-color: #282a36;
+    border-style: none;
+    width: calc(30vw - 5vw);
+    height: 5vh;
+    display: block;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1vh;
+    color: white;
+    outline: 0;
+}
+
+input::placeholder {
+    padding-left: 0.5vw;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+a.white {
+    color: white;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.c-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.s-none {
+    text-decoration: none;
+}
+
+.form-btn {
+    width: calc(30vw - 5vw);
+    height: 5vh;
+    margin-top: 3vh;
+    border-style: none;
+    border-radius: 1vh;
+}
+
+.grad-success {
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #289c55, #50fa7b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #289c55, #50fa7b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.success {
+    background-color: #50fa7b;
+}
+
+.form-btn:hover {
+    cursor: pointer;
+    background-color: #3bff6c
+}
+
+.formLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8vh;
+    width: 299px;
+    height: 56px;
+}
+
+.div {
+    color: #44475a;
+    text-align: center;
+}
+
+.profileImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}

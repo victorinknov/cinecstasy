@@ -1,0 +1,73 @@
+<head>
+    <title> Cadastre-se </title>
+    <link rel="stylesheet" href="/css/draculastrap.css">
+</head>
+<div class="container">
+    <form method="POST" enctype="multipart/form-data">
+
+        <div class="div">_</div>
+        <img 
+            id="frame"
+            src="/img/blank.png"
+            class="profileImg"
+            alt="" 
+            srcset="" required>
+        
+        <script>
+            function preview() {
+                frame.src = URL.createObjectURL(event.target.files[0]);
+            }
+        </script>
+
+        <div class="form-group">
+            <input 
+                type="text"
+                name="firstName"
+                id=""
+                placeholder="First name" required>
+
+            <input 
+                type="text" 
+                name="lastName" 
+                id=""
+                placeholder="Last name" required>
+        </div>
+        
+        <input 
+            type="email" 
+            name="email"
+            placeholder="E-mail"
+            id="" required>
+
+        <input 
+            type="password"
+            name="password" 
+            placeholder="Password"
+            id="" required>
+
+        <input 
+            type="date"
+            name="birthday"
+            id="" required>
+
+        <label
+            for="fileUpload" 
+            type="file" 
+            name="profileImage"
+            placeholder="Sua melhor foto :)"
+            id="" required></label> 
+
+        <input 
+            type="file" 
+            name="profileImage"
+            placeholder="Sua melhor foto :)"
+            id="fileUpload"
+            onchange="preview()"
+            required> 
+        
+        <button 
+            type="submit"
+            class="form-btn c-block grad-success"> Enviar </button>
+    </form>
+</div>
+    

@@ -1,0 +1,1065 @@
+<head>
+	<title>
+		Movies
+	</title>
+	<link rel="stylesheet" href="/css/component.css">
+</head>
+
+<body onload="ticketBought();covidSeat()">
+
+	<form action="/dashboard/comprar-ingressos/sessao" method="post">
+		<div class="rows rows--mini">
+			<h3 class="plan__title">Reservar Assentos para:</h3>
+			<h3 class="plan__title">{{nameOfMovie}}</h3>
+			<!-- Fileira A -->
+			<div class="row--table">
+				<div for="assent" class="row__seat tooltip" data-tooltip="A01">
+					<input type="checkbox" name="idSeat" id="A01" value="A01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A02">
+					<input type="checkbox" name="idSeat" id="A02" value="A02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A03">
+					<input type="checkbox" name="idSeat" id="A03" value="A03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A04">
+					<input type="checkbox" name="idSeat" id="A04" value="A04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A05">
+					<input type="checkbox" name="idSeat" id="A05" value="A05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A06">
+					<input type="checkbox" name="idSeat" id="A06" value="A06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A07">
+					<input type="checkbox" name="idSeat" id="A07" value="A07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A08">
+					<input type="checkbox" name="idSeat" id="A08" value="A08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A09">
+					<input type="checkbox" name="idSeat" id="A09" value="A09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A10">
+					<input type="checkbox" name="idSeat" id="A10" value="A10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A11">
+					<input type="checkbox" name="idSeat" id="A11" value="A11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A12">
+					<input type="checkbox" name="idSeat" id="A12" value="A12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A13">
+					<input type="checkbox" name="idSeat" id="A13" value="A13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A14">
+					<input type="checkbox" name="idSeat" id="A14" value="A14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A15">
+					<input type="checkbox" name="idSeat" id="A15" value="A15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A16">
+					<input type="checkbox" name="idSeat" id="A16" value="A16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A17">
+					<input type="checkbox" name="idSeat" id="A17" value="A17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="A18">
+					<input type="checkbox" name="idSeat" id="A18" value="A18"></input>
+				</div>
+			</div>
+			<!-- Fileira B -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="B01">
+					<input type="checkbox" name="idSeat" id="B01" value="B01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B02">
+					<input type="checkbox" name="idSeat" id="B02" value="B02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B03">
+					<input type="checkbox" name="idSeat" id="B03" value="B03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B04">
+					<input type="checkbox" name="idSeat" id="B04" value="B04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B05">
+					<input type="checkbox" name="idSeat" id="B05" value="B05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B06">
+					<input type="checkbox" name="idSeat" id="B06" value="B06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B07">
+					<input type="checkbox" name="idSeat" id="B07" value="B07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B08">
+					<input type="checkbox" name="idSeat" id="B08" value="B08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B09">
+					<input type="checkbox" name="idSeat" id="B09" value="B09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B10">
+					<input type="checkbox" name="idSeat" id="B10" value="B10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B11">
+					<input type="checkbox" name="idSeat" id="B11" value="B11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B12">
+					<input type="checkbox" name="idSeat" id="B12" value="B12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B13">
+					<input type="checkbox" name="idSeat" id="B13" value="B13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B14">
+					<input type="checkbox" name="idSeat" id="B14" value="B14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B15">
+					<input type="checkbox" name="idSeat" id="B15" value="B15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B16">
+					<input type="checkbox" name="idSeat" id="B16" value="B16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B17">
+					<input type="checkbox" name="idSeat" id="B17" value="B17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="B18">
+					<input type="checkbox" name="idSeat" id="B18" value="B18"></input>
+				</div>
+			</div>
+			<!-- Fileira C -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="C01">
+					<input type="checkbox" name="idSeat" id="C01" value="C01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C2">
+					<input type="checkbox" name="idSeat" id="C02" value="C02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C03">
+					<input type="checkbox" name="idSeat" id="C03" value="C03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C04">
+					<input type="checkbox" name="idSeat" id="C04" value="C04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C05">
+					<input type="checkbox" name="idSeat" id="C05" value="C05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C06">
+					<input type="checkbox" name="idSeat" id="C06" value="C06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C07">
+					<input type="checkbox" name="idSeat" id="C07" value="C07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C08">
+					<input type="checkbox" name="idSeat" id="C08" value="C08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C09">
+					<input type="checkbox" name="idSeat" id="C09" value="C09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C10">
+					<input type="checkbox" name="idSeat" id="C10" value="C10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C11">
+					<input type="checkbox" name="idSeat" id="C11" value="C11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C12">
+					<input type="checkbox" name="idSeat" id="C12" value="C12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C13">
+					<input type="checkbox" name="idSeat" id="C13" value="C13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C14">
+					<input type="checkbox" name="idSeat" id="C14" value="C14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C15">
+					<input type="checkbox" name="idSeat" id="C15" value="C15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C16">
+					<input type="checkbox" name="idSeat" id="C16" value="C16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C17">
+					<input type="checkbox" name="idSeat" id="C17" value="C17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="C18">
+					<input type="checkbox" name="idSeat" id="C18" value="C18"></input>
+				</div>
+			</div>
+			<!-- Fileira D -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="D01">
+					<input type="checkbox" name="idSeat" id="D01" value="D01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D02">
+					<input type="checkbox" name="idSeat" id="D02" value="D02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D03">
+					<input type="checkbox" name="idSeat" id="D03" value="D03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D04">
+					<input type="checkbox" name="idSeat" id="D04" value="D04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D05">
+					<input type="checkbox" name="idSeat" id="D05" value="D05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D06">
+					<input type="checkbox" name="idSeat" id="D06" value="D06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D07">
+					<input type="checkbox" name="idSeat" id="D07" value="D07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D08">
+					<input type="checkbox" name="idSeat" id="D08" value="D08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D09">
+					<input type="checkbox" name="idSeat" id="D09" value="D09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D10">
+					<input type="checkbox" name="idSeat" id="D10" value="D10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D11">
+					<input type="checkbox" name="idSeat" id="D11" value="D11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D12">
+					<input type="checkbox" name="idSeat" id="D12" value="D12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D13">
+					<input type="checkbox" name="idSeat" id="D13" value="D13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D14">
+					<input type="checkbox" name="idSeat" id="D14" value="D14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D15">
+					<input type="checkbox" name="idSeat" id="D15" value="D15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D16">
+					<input type="checkbox" name="idSeat" id="D16" value="D16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D17">
+					<input type="checkbox" name="idSeat" id="D17" value="D17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="D18">
+					<input type="checkbox" name="idSeat" id="D18" value="D18"></input>
+				</div>
+			</div>
+			<!-- Fileira E -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="E01">
+					<input type="checkbox" name="idSeat" id="E01" value="E01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E02">
+					<input type="checkbox" name="idSeat" id="E02" value="E02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E03">
+					<input type="checkbox" name="idSeat" id="E03" value="E03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E04">
+					<input type="checkbox" name="idSeat" id="E04" value="E04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E05">
+					<input type="checkbox" name="idSeat" id="E05" value="E05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E06">
+					<input type="checkbox" name="idSeat" id="E06" value="E06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E07">
+					<input type="checkbox" name="idSeat" id="E07" value="E07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E08">
+					<input type="checkbox" name="idSeat" id="E08" value="E08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E09">
+					<input type="checkbox" name="idSeat" id="E09" value="E09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E10">
+					<input type="checkbox" name="idSeat" id="E10" value="E10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E11">
+					<input type="checkbox" name="idSeat" id="E11" value="E11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E12">
+					<input type="checkbox" name="idSeat" id="E12" value="E12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E13">
+					<input type="checkbox" name="idSeat" id="E13" value="E13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E14">
+					<input type="checkbox" name="idSeat" id="E14" value="E14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E15">
+					<input type="checkbox" name="idSeat" id="E15" value="E15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E16">
+					<input type="checkbox" name="idSeat" id="E16" value="E16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E17">
+					<input type="checkbox" name="idSeat" id="E17" value="E17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="E18">
+					<input type="checkbox" name="idSeat" id="E18" value="E18"></input>
+				</div>
+			</div>
+			<!-- Fileira F -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="F01">
+					<input type="checkbox" name="idSeat" id="F01" value="F01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F02">
+					<input type="checkbox" name="idSeat" id="F02" value="F02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F03">
+					<input type="checkbox" name="idSeat" id="F03" value="F03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F04">
+					<input type="checkbox" name="idSeat" id="F04" value="F04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F05">
+					<input type="checkbox" name="idSeat" id="F05" value="F05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F06">
+					<input type="checkbox" name="idSeat" id="F06" value="F06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F07">
+					<input type="checkbox" name="idSeat" id="F07" value="F07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F08">
+					<input type="checkbox" name="idSeat" id="F08" value="F08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F09">
+					<input type="checkbox" name="idSeat" id="F09" value="F09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F10">
+					<input type="checkbox" name="idSeat" id="F10" value="F10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F11">
+					<input type="checkbox" name="idSeat" id="F11" value="F11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F12">
+					<input type="checkbox" name="idSeat" id="F12" value="F12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F13">
+					<input type="checkbox" name="idSeat" id="F13" value="F13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F14">
+					<input type="checkbox" name="idSeat" id="F14" value="F14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F15">
+					<input type="checkbox" name="idSeat" id="F15" value="F15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F16">
+					<input type="checkbox" name="idSeat" id="F16" value="F16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F17">
+					<input type="checkbox" name="idSeat" id="F17" value="F17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="F18">
+					<input type="checkbox" name="idSeat" id="F18" value="F18"></input>
+				</div>
+			</div>
+			<!-- Fileira G -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="G01">
+					<input type="checkbox" name="idSeat" id="G01" value="G01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G02">
+					<input type="checkbox" name="idSeat" id="G02" value="G02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G03">
+					<input type="checkbox" name="idSeat" id="G03" value="G03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G04">
+					<input type="checkbox" name="idSeat" id="G04" value="G04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G05">
+					<input type="checkbox" name="idSeat" id="G05" value="G05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G06">
+					<input type="checkbox" name="idSeat" id="G06" value="G06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G07">
+					<input type="checkbox" name="idSeat" id="G07" value="G07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G08">
+					<input type="checkbox" name="idSeat" id="G08" value="G08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G09">
+					<input type="checkbox" name="idSeat" id="G09" value="G09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G10">
+					<input type="checkbox" name="idSeat" id="G10" value="G10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G11">
+					<input type="checkbox" name="idSeat" id="G11" value="G11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G12">
+					<input type="checkbox" name="idSeat" id="G12" value="G12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G13">
+					<input type="checkbox" name="idSeat" id="G13" value="G13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G14">
+					<input type="checkbox" name="idSeat" id="G14" value="G14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G15">
+					<input type="checkbox" name="idSeat" id="G15" value="G15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G16">
+					<input type="checkbox" name="idSeat" id="G16" value="G16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G17">
+					<input type="checkbox" name="idSeat" id="G17" value="G17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="G18">
+					<input type="checkbox" name="idSeat" id="G18" value="G18"></input>
+				</div>
+			</div>
+			<!-- Fileira H -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="H01">
+					<input type="checkbox" name="idSeat" id="H01" value="H01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H02">
+					<input type="checkbox" name="idSeat" id="H02" value="H02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H03">
+					<input type="checkbox" name="idSeat" id="H03" value="H03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H04">
+					<input type="checkbox" name="idSeat" id="H04" value="H04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H05">
+					<input type="checkbox" name="idSeat" id="H05" value="H05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H06">
+					<input type="checkbox" name="idSeat" id="H06" value="H06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H07">
+					<input type="checkbox" name="idSeat" id="H07" value="H07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H08">
+					<input type="checkbox" name="idSeat" id="H08" value="H08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H09">
+					<input type="checkbox" name="idSeat" id="H09" value="H09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H10">
+					<input type="checkbox" name="idSeat" id="H10" value="H10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H11">
+					<input type="checkbox" name="idSeat" id="H11" value="H11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H12">
+					<input type="checkbox" name="idSeat" id="H12" value="H12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H13">
+					<input type="checkbox" name="idSeat" id="H13" value="H13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H14">
+					<input type="checkbox" name="idSeat" id="H14" value="H14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H15">
+					<input type="checkbox" name="idSeat" id="H15" value="H15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H16">
+					<input type="checkbox" name="idSeat" id="H16" value="H16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H17">
+					<input type="checkbox" name="idSeat" id="H17" value="H17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="H18">
+					<input type="checkbox" name="idSeat" id="H18" value="H18"></input>
+				</div>
+			</div>
+			<!-- Fileira I -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="I01">
+					<input type="checkbox" name="idSeat" id="I01" value="I01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I02">
+					<input type="checkbox" name="idSeat" id="I02" value="I02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I03">
+					<input type="checkbox" name="idSeat" id="I03" value="I03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I04">
+					<input type="checkbox" name="idSeat" id="I04" value="I04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I05">
+					<input type="checkbox" name="idSeat" id="I05" value="I05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I06">
+					<input type="checkbox" name="idSeat" id="I06" value="I06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I07">
+					<input type="checkbox" name="idSeat" id="I07" value="I07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I08">
+					<input type="checkbox" name="idSeat" id="I08" value="I08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I09">
+					<input type="checkbox" name="idSeat" id="I09" value="I09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I10">
+					<input type="checkbox" name="idSeat" id="I10" value="I10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I11">
+					<input type="checkbox" name="idSeat" id="I11" value="I11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I12">
+					<input type="checkbox" name="idSeat" id="I12" value="I12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I13">
+					<input type="checkbox" name="idSeat" id="I13" value="I13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I14">
+					<input type="checkbox" name="idSeat" id="I14" value="I14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I15">
+					<input type="checkbox" name="idSeat" id="I15" value="I15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I16">
+					<input type="checkbox" name="idSeat" id="I16" value="I16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I17">
+					<input type="checkbox" name="idSeat" id="I17" value="I17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="I18">
+					<input type="checkbox" name="idSeat" id="I18" value="I18"></input>
+				</div>
+			</div>
+			<!-- Fileira J -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="J01">
+					<input type="checkbox" name="idSeat" id="J01" value="J01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J02">
+					<input type="checkbox" name="idSeat" id="J02" value="J02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J03">
+					<input type="checkbox" name="idSeat" id="J03" value="J03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J04">
+					<input type="checkbox" name="idSeat" id="J04" value="J04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J05">
+					<input type="checkbox" name="idSeat" id="J05" value="J05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J06">
+					<input type="checkbox" name="idSeat" id="J06" value="J06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J07">
+					<input type="checkbox" name="idSeat" id="J07" value="J07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J08">
+					<input type="checkbox" name="idSeat" id="J08" value="J08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J09">
+					<input type="checkbox" name="idSeat" id="J09" value="J09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J10">
+					<input type="checkbox" name="idSeat" id="J10" value="J10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J11">
+					<input type="checkbox" name="idSeat" id="J11" value="J11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J12">
+					<input type="checkbox" name="idSeat" id="J12" value="J12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J13">
+					<input type="checkbox" name="idSeat" id="J13" value="J13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J14">
+					<input type="checkbox" name="idSeat" id="J14" value="J14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J15">
+					<input type="checkbox" name="idSeat" id="J15" value="J15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J16">
+					<input type="checkbox" name="idSeat" id="J16" value="J16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J17">
+					<input type="checkbox" name="idSeat" id="J17" value="J17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="J18">
+					<input type="checkbox" name="idSeat" id="J18" value="J18"></input>
+				</div>
+			</div>
+			<!-- Fileira K -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="K01">
+					<input type="checkbox" name="idSeat" id="K01" value="K01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K02">
+					<input type="checkbox" name="idSeat" id="K02" value="K02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K03">
+					<input type="checkbox" name="idSeat" id="K03" value="K03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K04">
+					<input type="checkbox" name="idSeat" id="K04" value="K04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K05">
+					<input type="checkbox" name="idSeat" id="K05" value="K05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K06">
+					<input type="checkbox" name="idSeat" id="K06" value="K06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K07">
+					<input type="checkbox" name="idSeat" id="K07" value="K07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K08">
+					<input type="checkbox" name="idSeat" id="K08" value="K08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K09">
+					<input type="checkbox" name="idSeat" id="K09" value="K09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K10">
+					<input type="checkbox" name="idSeat" id="K10" value="K10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K11">
+					<input type="checkbox" name="idSeat" id="K11" value="K11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K12">
+					<input type="checkbox" name="idSeat" id="K12" value="K12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K13">
+					<input type="checkbox" name="idSeat" id="K13" value="K13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K14">
+					<input type="checkbox" name="idSeat" id="K14" value="K14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K15">
+					<input type="checkbox" name="idSeat" id="K15" value="K15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K16">
+					<input type="checkbox" name="idSeat" id="K16" value="K16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K17">
+					<input type="checkbox" name="idSeat" id="K17" value="K17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="K18">
+					<input type="checkbox" name="idSeat" id="K18" value="K18"></input>
+				</div>
+			</div>
+			<!-- Fileira L -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="L01">
+					<input type="checkbox" name="idSeat" id="L01" value="L01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L2">
+					<input type="checkbox" name="idSeat" id="L02" value="L02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L3">
+					<input type="checkbox" name="idSeat" id="L03" value="L03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L04">
+					<input type="checkbox" name="idSeat" id="L04" value="L04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L05">
+					<input type="checkbox" name="idSeat" id="L05" value="L05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L06">
+					<input type="checkbox" name="idSeat" id="L06" value="L06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L07">
+					<input type="checkbox" name="idSeat" id="L07" value="L07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L08">
+					<input type="checkbox" name="idSeat" id="L08" value="L08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L09">
+					<input type="checkbox" name="idSeat" id="L09" value="L09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L10">
+					<input type="checkbox" name="idSeat" id="L10" value="L10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L11">
+					<input type="checkbox" name="idSeat" id="L11" value="L11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L12">
+					<input type="checkbox" name="idSeat" id="L12" value="L12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L13">
+					<input type="checkbox" name="idSeat" id="L13" value="L13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L14">
+					<input type="checkbox" name="idSeat" id="L14" value="L14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L15">
+					<input type="checkbox" name="idSeat" id="L15" value="L15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L16">
+					<input type="checkbox" name="idSeat" id="L16" value="L16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L17">
+					<input type="checkbox" name="idSeat" id="L17" value="L17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="L18">
+					<input type="checkbox" name="idSeat" id="L18" value="L18"></input>
+				</div>
+			</div>
+			<!-- Fileira M -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="M01">
+					<input type="checkbox" name="idSeat" id="M01" value="M01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M02">
+					<input type="checkbox" name="idSeat" id="M02" value="M02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M03">
+					<input type="checkbox" name="idSeat" id="M03" value="M03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M04">
+					<input type="checkbox" name="idSeat" id="M04" value="M04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M05">
+					<input type="checkbox" name="idSeat" id="M05" value="M05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M06">
+					<input type="checkbox" name="idSeat" id="M06" value="M06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M07">
+					<input type="checkbox" name="idSeat" id="M07" value="M07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M08">
+					<input type="checkbox" name="idSeat" id="M08" value="M08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M09">
+					<input type="checkbox" name="idSeat" id="M09" value="M09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M10">
+					<input type="checkbox" name="idSeat" id="M10" value="M10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M11">
+					<input type="checkbox" name="idSeat" id="M11" value="M11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M12">
+					<input type="checkbox" name="idSeat" id="M12" value="M12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M13">
+					<input type="checkbox" name="idSeat" id="M13" value="M13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M14">
+					<input type="checkbox" name="idSeat" id="M14" value="M14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M15">
+					<input type="checkbox" name="idSeat" id="M15" value="M15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M16">
+					<input type="checkbox" name="idSeat" id="M16" value="M16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M17">
+					<input type="checkbox" name="idSeat" id="M17" value="M17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="M18">
+					<input type="checkbox" name="idSeat" id="M18" value="M18"></input>
+				</div>
+			</div>
+			<!-- Fileira N -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="N01">
+					<input type="checkbox" name="idSeat" id="N01" value="N01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N02">
+					<input type="checkbox" name="idSeat" id="N02" value="N02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N03">
+					<input type="checkbox" name="idSeat" id="N03" value="N03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N04">
+					<input type="checkbox" name="idSeat" id="N04" value="N04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N05">
+					<input type="checkbox" name="idSeat" id="N05" value="N05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N06">
+					<input type="checkbox" name="idSeat" id="N06" value="N06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N07">
+					<input type="checkbox" name="idSeat" id="N07" value="N07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N08">
+					<input type="checkbox" name="idSeat" id="N08" value="N08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N09">
+					<input type="checkbox" name="idSeat" id="N09" value="N09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N10">
+					<input type="checkbox" name="idSeat" id="N10" value="N10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N11">
+					<input type="checkbox" name="idSeat" id="N11" value="N11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N12">
+					<input type="checkbox" name="idSeat" id="N12" value="N12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N13">
+					<input type="checkbox" name="idSeat" id="N13" value="N13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N14">
+					<input type="checkbox" name="idSeat" id="N14" value="N14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N15">
+					<input type="checkbox" name="idSeat" id="N15" value="N15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N16">
+					<input type="checkbox" name="idSeat" id="N16" value="N16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N17">
+					<input type="checkbox" name="idSeat" id="N17" value="N17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="N18">
+					<input type="checkbox" name="idSeat" id="N18" value="N18"></input>
+				</div>
+			</div>
+			<!-- Fileira O -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="O01">
+					<input type="checkbox" name="idSeat" id="O01" value="O01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O02">
+					<input type="checkbox" name="idSeat" id="O02" value="O02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O03">
+					<input type="checkbox" name="idSeat" id="O03" value="O03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O04">
+					<input type="checkbox" name="idSeat" id="O04" value="O04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O05">
+					<input type="checkbox" name="idSeat" id="O05" value="O05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O06">
+					<input type="checkbox" name="idSeat" id="O06" value="O06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O07">
+					<input type="checkbox" name="idSeat" id="O07" value="O07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O08">
+					<input type="checkbox" name="idSeat" id="O08" value="O08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O09">
+					<input type="checkbox" name="idSeat" id="O09" value="O09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O10">
+					<input type="checkbox" name="idSeat" id="O10" value="O10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O11">
+					<input type="checkbox" name="idSeat" id="O11" value="O11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O12">
+					<input type="checkbox" name="idSeat" id="O12" value="O12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O13">
+					<input type="checkbox" name="idSeat" id="O13" value="O13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O14">
+					<input type="checkbox" name="idSeat" id="O14" value="O14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O15">
+					<input type="checkbox" name="idSeat" id="O15" value="O15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O16">
+					<input type="checkbox" name="idSeat" id="O16" value="O16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O17">
+					<input type="checkbox" name="idSeat" id="O17" value="O17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="O18">
+					<input type="checkbox" name="idSeat" id="O18" value="O18"></input>
+				</div>
+			</div>
+			<!-- Fileira P -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="P01">
+					<input type="checkbox" name="idSeat" id="P01" value="P01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P02">
+					<input type="checkbox" name="idSeat" id="P02" value="P02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P03">
+					<input type="checkbox" name="idSeat" id="P03" value="P03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P04">
+					<input type="checkbox" name="idSeat" id="P04" value="P04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P05">
+					<input type="checkbox" name="idSeat" id="P05" value="P05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P06">
+					<input type="checkbox" name="idSeat" id="P06" value="P06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P07">
+					<input type="checkbox" name="idSeat" id="P07" value="P07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P08">
+					<input type="checkbox" name="idSeat" id="P08" value="P08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P09">
+					<input type="checkbox" name="idSeat" id="P09" value="P09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P10">
+					<input type="checkbox" name="idSeat" id="P10" value="P10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P11">
+					<input type="checkbox" name="idSeat" id="P11" value="P11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P12">
+					<input type="checkbox" name="idSeat" id="P12" value="P12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P13">
+					<input type="checkbox" name="idSeat" id="P13" value="P13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P14">
+					<input type="checkbox" name="idSeat" id="P14" value="P14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P15">
+					<input type="checkbox" name="idSeat" id="P15" value="P15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P16">
+					<input type="checkbox" name="idSeat" id="P16" value="P16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P17">
+					<input type="checkbox" name="idSeat" id="P17" value="P17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="P18">
+					<input type="checkbox" name="idSeat" id="P18" value="P18"></input>
+				</div>
+			</div>
+			<!-- Fileira Q -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="Q01">
+					<input type="checkbox" name="idSeat" id="Q01" value="Q01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q02">
+					<input type="checkbox" name="idSeat" id="Q02" value="Q02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q03">
+					<input type="checkbox" name="idSeat" id="Q03" value="Q03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q04">
+					<input type="checkbox" name="idSeat" id="Q04" value="Q04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q05">
+					<input type="checkbox" name="idSeat" id="Q05" value="Q05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q06">
+					<input type="checkbox" name="idSeat" id="Q06" value="Q06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q07">
+					<input type="checkbox" name="idSeat" id="Q07" value="Q07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q08">
+					<input type="checkbox" name="idSeat" id="Q08" value="Q08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q09">
+					<input type="checkbox" name="idSeat" id="Q09" value="Q09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q10">
+					<input type="checkbox" name="idSeat" id="Q10" value="Q10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q11">
+					<input type="checkbox" name="idSeat" id="Q11" value="Q11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q12">
+					<input type="checkbox" name="idSeat" id="Q12" value="Q12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q13">
+					<input type="checkbox" name="idSeat" id="Q13" value="Q13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q14">
+					<input type="checkbox" name="idSeat" id="Q14" value="Q14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q15">
+					<input type="checkbox" name="idSeat" id="Q15" value="Q15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q16">
+					<input type="checkbox" name="idSeat" id="Q16" value="Q16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q17">
+					<input type="checkbox" name="idSeat" id="Q17" value="Q17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="Q18">
+					<input type="checkbox" name="idSeat" id="Q18" value="Q18"></input>
+				</div>
+			</div>
+			<!-- Fileira R -->
+			<div class="row--table">
+				<div class="row__seat tooltip" data-tooltip="R01">
+					<input type="checkbox" name="idSeat" id="R01" value="R01"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R02">
+					<input type="checkbox" name="idSeat" id="R02" value="R02"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R03">
+					<input type="checkbox" name="idSeat" id="R03" value="R03"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R04">
+					<input type="checkbox" name="idSeat" id="R04" value="R04"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R05">
+					<input type="checkbox" name="idSeat" id="R05" value="R05"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R06">
+					<input type="checkbox" name="idSeat" id="R06" value="R06"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R07">
+					<input type="checkbox" name="idSeat" id="R07" value="R07"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R08">
+					<input type="checkbox" name="idSeat" id="R08" value="R08"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R09">
+					<input type="checkbox" name="idSeat" id="R09" value="R09"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R10">
+					<input type="checkbox" name="idSeat" id="R10" value="R10"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R11">
+					<input type="checkbox" name="idSeat" id="R11" value="R11"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R12">
+					<input type="checkbox" name="idSeat" id="R12" value="R12"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R13">
+					<input type="checkbox" name="idSeat" id="R13" value="R13"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R14">
+					<input type="checkbox" name="idSeat" id="R14" value="R14"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R15">
+					<input type="checkbox" name="idSeat" id="R15" value="R15"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R16">
+					<input type="checkbox" name="idSeat" id="R16" value="R16"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R17">
+					<input type="checkbox" name="idSeat" id="R17" value="R17"></input>
+				</div>
+				<div class="row__seat tooltip" data-tooltip="R18">
+					<input type="checkbox" name="idSeat" id="R18" value="R18"></input>
+				</div>
+			</div>
+		</div>
+		<ul class="legend">
+			<li class="legend__item legend__item--free">Livre</li>
+			<li class="legend__item legend__item--reserved">Reservado</li>
+			<li class="legend__item legend__item--selected">Selecionado</li>
+			<li class="legend__item legend__item--anticovid">AntiCovid</li>
+		</ul>
+		<button type="submit" class="action action--buy">Comprar selecionados</button>
+	</form>
+	<script>
+		function ticketBought() {
+		{{#each alreadyBought}}
+			document.getElementById("{{idSeat}}").setAttribute("disabled", "")
+		{{/each}}
+		}
+	</script>
+	<script>
+		function covidSeat() {
+		{{#each covidSeat}}
+			document.getElementById("{{idSeat}}").setAttribute("disabled", "")
+			document.getElementById("{{idSeat}}").classList.add("anticovid")
+		{{/each}}
+		}
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+</body>

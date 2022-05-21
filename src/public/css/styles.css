@@ -1,0 +1,131 @@
+/* Removes the clear button from date inputs */
+
+html {
+    background-color: #181818;
+}
+
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+.imgLogoDashboard {
+    width: 50px;
+}
+
+
+/* Removes the spin button */
+
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+
+/* Always display the drop down caret */
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: #181818;
+}
+
+
+/* A few custom styles for date inputs */
+
+input[type="date"] {
+    color: #95a5a6;
+    background-color: #181818;
+    font-size: 18px;
+    border: 1px solid #d1d3e2;
+    border-radius: 10rem;
+    padding: 5px;
+    padding-left: 15px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="file"] {
+    margin-left: 0;
+    background-color: #181818;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 350px;
+}
+
+.radio-text {
+    font-size: 14px !important;
+    justify-content: space-between;
+}
+
+.label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 1em;
+}
+
+.label span {
+    color: #dc3545;
+}
+
+.img-logo {
+    width: 200px;
+    height: 75px;
+}
+
+.selectType {
+    max-width: 110px;
+    color: #fff;
+    background-color: #181818;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.selectSort {
+    max-width: 110px;
+    color: #fff;
+    background-color: #181818;
+    border: 1px solid white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left-color: #fff;
+}
+
+.selectSort:focus,
+.selectType:focus {
+    outline: none;
+}
+
+.selectSort option[disabled],
+.selectType option[disabled] {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: rgb(92, 92, 92);
+}
+
+.selectSort option[disabled]:hover,
+.selectType option[disabled]:hover {
+    color: white;
+    font-size: 12px;
+    background-color: rgb(38, 38, 38);
+}
+
+optgroup[label] {
+    color: #f6c23e;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+optgroup option {
+    color: #fff;
+}
+
+.option-invisible {
+    display: none;
+}

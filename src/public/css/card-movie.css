@@ -1,0 +1,260 @@
+.intro {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, p {
+  font-weight: 400;
+}
+
+.parental-L {
+  background-color: #0c9547;
+  border: 1px solid #0c9547;
+  border-radius: 20%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.parental-10 {
+  background-color: #117cc0;
+  border: 1px solid #117cc0;
+  border-radius: 20%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.parental-12 {
+  background-color: #e0b001;
+  border: 1px solid #e0b001;
+  border-radius: 20%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.parental-14 {
+  background-color: #d66813;
+  border: 1px solid #d66813;
+  border-radius: 20%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.parental-16 {
+  background-color: #dd2723;
+  border: 1px solid #dd2723;
+  border-radius: 20%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.parental-18 {
+  background-color: #1e1715;
+  border: 1px solid #ffffff;
+  border-radius: 20%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.movie-card {
+  background: #222222;
+  box-shadow: 0px 6px 18px rgba(10, 10, 10, 0.3);
+  width: 100%;
+  max-width: 315px;
+  margin: 2em;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.movie-header {
+  padding: 0;
+  margin: 0;
+  height: 367px;
+  width: 100%;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.movie-background {
+  background-size: cover;
+}
+
+.movie-content {
+  padding: 18px 18px 24px 18px;
+  margin: 0 !important;
+}
+
+.movie-content-header, .movie-info {
+  display: table;
+  width: 100%;
+}
+
+.movie-title {
+  font-size: 18px;
+  margin: 0;
+  display: table-cell;
+}
+
+.edit {
+  display: table-cell;
+  float: right;
+  position: relative;
+  margin-top: 0px !important;
+}
+
+.movie-info {
+  margin-top: 1em;
+}
+
+.info-section {
+  display: table-cell;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.info-section:first-of-type {
+  text-align: left;
+}
+
+.info-section:last-of-type {
+  text-align: right;
+}
+
+.info-section label {
+  display: block;
+  color: rgb(251, 253, 120);
+  margin-bottom: .5em;
+  font-size: 9px;
+}
+
+.format {
+  display: block;
+  color: rgb(23, 243, 140);
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: .5em;
+  font-size: 9px;
+}
+
+.status-ativo {
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 10%;
+  width: 10px !important;
+  height: 10px;
+  background-color:rgb(23, 243, 140);
+  border-radius: 100%;
+}
+
+.status-inativo {
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 10%;
+  width: 10px !important;
+  height: 10px;
+  background-color:rgb(230, 15, 0);
+  border-radius: 100%;
+}
+
+.status-lançamento {
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 10%;
+  width: 10px !important;
+  height: 10px;
+  background-color:#03a9f4;
+  border-radius: 100%;
+}
+
+.status-em-breve {
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 10%;
+  width: 10px !important;
+  height: 10px;
+  background-color:#EA638C;
+  border-radius: 100%;
+}
+
+.status-ultimos-dias {
+  display: block;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 10%;
+  width: 10px !important;
+  height: 10px;
+  background-color:rgb(243, 173, 23);
+  border-radius: 100%;
+}
+
+.info-section span {
+  font-weight: 700;
+  font-size: 11px;
+}
+
+/* Toolip pra quando o usuario passar o mouse por cima */
+.tool {
+  cursor: help;
+  position: relative;
+  text-align: left;
+}
+
+.tool::before, .tool::after {
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  z-index: -100;
+}
+
+.tool:hover::before, .tool:focus::before, .tool:hover::after, .tool:focus::after {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  z-index: 100;
+}
+
+.tool:focus::before {
+  transition: all .15s cubic-bezier(.84, -0.18, .31, 1.26);
+}
+
+.tool::after {
+  background: rgba(18, 18, 18, 0.9);
+  border: 1px #fff !important;
+  border-radius: 15px;
+  bottom: 180%;
+  color: #EDEFF0;
+  content: attr(data-tip);
+  margin-left: -8.75em;
+  padding: 1em;
+  width: 17.5em;
+}
+
+@media (max-width: 760px) {
+  .tool::after {
+    font-size: .75em;
+    margin-left: -5em;
+    width: 10em;
+  }
+}
+
